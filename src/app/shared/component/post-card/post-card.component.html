@@ -1,0 +1,18 @@
+<div class="card mt-5">
+    <div class="card-header">
+        <h3>
+            {{post.title}}
+        </h3>
+    </div>
+    <div class="card-body">
+        <p>
+            {{post.body}}
+        </p>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+        <button 
+        (click)="onEdit()"
+        class="btn btn-sm btn-info">Edit</button>
+        <button class="btn btn-sm btn-danger">Remove</button>
+    </div>
+</div>
